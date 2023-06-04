@@ -95,6 +95,8 @@ if(currencySelect.value == "euro") {
 
     }
 
+
+    convertValues()
 }
 
 
