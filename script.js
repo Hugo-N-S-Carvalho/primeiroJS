@@ -28,7 +28,7 @@ function convertValues() {// função que converte real em dólar
 
 // currencyValueConverted.innerHTML = convertedValue  //troca valor  dólar da página
 
-    if( currencySelect.value = "dolar" ){ //Se o select estiver selecionado com o valor dolar, então executa o código dentro o if
+    if( currencySelect.value == "dolar" ){ //Se o select estiver selecionado com o valor dolar, então executa o código dentro o if
 
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", { //troca o valor do dólar da página convertido com formatação
             style: "currency",
@@ -37,7 +37,7 @@ function convertValues() {// função que converte real em dólar
     }
 
 
-if(currencySelect.value = "euro"){//Se o select estiver selecionado com o valor euro, então executa o código dentro o if
+if(currencySelect.value == "euro"){//Se o select estiver selecionado com o valor euro, então executa o código dentro o if
 
 
     currencyValueConverted.innerHTML = new Intl.NumberFormat("de-DE", { //troca o valor do dólar da página convertido com formatação
